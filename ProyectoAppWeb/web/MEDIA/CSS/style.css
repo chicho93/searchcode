@@ -1,0 +1,19 @@
+body {background:#b7a384 url(../IMAGE/zul.jpg) no-repeat fixed bottom right; margin:0; padding:0}
+
+
+#instagram {margin:50px auto; width:970px}
+#instagram li {display:block; text-align: center}
+#instagram a {background-color:#fff; display:inline; float:left; margin:0 0 27px 30px; width:auto; padding:10px 10px 15px; text-align:center; font-family:sans-serif; text-decoration:none; color:#fff; font-size:18px; box-shadow:0 3px 6px rgba(0,0,0,.25); -webkit-box-shadow:0 3px 6px rgba(0,0,0,.25); -moz-box-shadow:0 3px 6px rgba(0,0,0,.25); transform:rotate(-2deg); -webkit-transform:rotate(-2deg); transition:transform .15s linear; -webkit-transition:-webkit-transform .15s linear; -moz-transform:rotate(-2deg)}
+#instagram img {display:block; width:190px; margin-bottom:12px; }
+
+#instagram li:nth-child(even) a {transform: rotate(2deg); -webkit-transform: rotate(2deg);  -moz-transform: rotate(2deg); }
+#instagram li:nth-child(3n) a {transform: none; -webkit-transform: none; position: relative; top: -5px;  -moz-transform: none; }
+#instagram li:nth-child(5n) a {transform: rotate(5deg); -webkit-transform: rotate(5deg); position: relative; right: 5px;  -moz-transform: rotate(5deg); }
+#instagram li:nth-child(8n) a { position: relative; right: 5px; top: 8px; }
+#instagram li:nth-child(11n) a { position: relative; left: -5px; top: 3px; }
+
+#instagram li a:hover { -webkit-transform: scale(1.25); -moz-transform: scale(1.25); transform: scale(1.25); -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); box-shadow: 0 3px 6px rgba(0,0,0,.5); position: relative; z-index: 5; }
+
+#instagram table {font-family: "Times New Roman", Georgia, Serif; font-size: 12px; margin: 45px; width: 480px; text-align: center; }
+
+#instagram td {color: #000; border-top: 1px solid transparent; }
